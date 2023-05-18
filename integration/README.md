@@ -7,4 +7,27 @@
 
 ## Tutorial Steps
 
-### 1. TODO
+### 1. Challenges API
+n/a
+
+### 2. Challenges Declaration File
+n/a
+
+### 3. Direct Links
+n/a
+
+### 4. Challenge Solution Webhook
+Set up a server that exposes a Webhook URL to listen for Juice Shop notifications.
+
+For testing, you can for example [create a public RequestBin](https://public.requestbin.com/r).
+
+Start Juice Shop while passing in the URL of your webhook via the `SOLUTIONS_WEBHOOK` environment variable, e.g. on Linux:
+
+```
+SOLUTIONS_WEBHOOK=<your webhook URL> npm start
+```
+
+Open your Juice Shop instance in another tab and start solving some challenges. You should get notifications for each solved hacking and coding challenge on the webhook.
+
+### 5. Prometheus Metrics
+n/a

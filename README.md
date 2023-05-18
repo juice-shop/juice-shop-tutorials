@@ -2,8 +2,8 @@
 
 In this repository you find presentations and code snippets for various tutorials on advanced OWASP Juice Shop topics:
 
-* [Customization](/customization) - Build your own theme in 18 easy steps
-* [Integration](/integration) - TODO
+* [Customization](/customization) - Build a theme in 18 easy steps
+* [Integration](/integration) - Siphon juicy data in 5 different ways
 
 ----
 
