@@ -1,0 +1,26 @@
+application:
+  name: 'OWASP Juice Shop Merchandise'
+  logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR75YUKMZ8DgKDVeLNB4V-eYTbYuE_n_L5Ka4j3aIbXSw&s'
+  welcomeBanner:
+    showOnFirstStart: false
+  theme: deeporange-indigo
+  cookieConsent:
+    backgroundColor: '#e95420'
+    textColor: '#ffffff'
+    buttonColor: '#2778c5'
+    buttonTextColor: '#ffffff'
+    message: 'We use cookies and other tracking technologies as well as external media on our website. You may opt-out of non-essential cookies.'
+    dismissText: 'Agree'
+    linkText: 'Cookie Settings'
+    linkUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+  social:
+    twitterUrl: 'https://twitter.com/owasp_juiceshop'
+    facebookUrl: ~
+    slackUrl: ~
+    redditUrl: ~
+    pressKitUrl: 'https://www.spreadshirt.com/shop/owasp%20juice%20shop'
+  domain: juiceshop.myspreadsh.op
+  privacyContactEmail: donotreply@juiceshop.myspreadsh.op
+  favicon: https://juiceshop.myspreadshop.com/favicon-16x16.png
+challenges:
+  showSolvedNotifications: false

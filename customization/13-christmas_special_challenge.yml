@@ -1,0 +1,61 @@
+application:
+  name: 'OWASP Juice Shop Merchandise'
+  logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR75YUKMZ8DgKDVeLNB4V-eYTbYuE_n_L5Ka4j3aIbXSw&s'
+  welcomeBanner:
+    showOnFirstStart: false
+  theme: deeporange-indigo
+  cookieConsent:
+    backgroundColor: '#e95420'
+    textColor: '#ffffff'
+    buttonColor: '#2778c5'
+    buttonTextColor: '#ffffff'
+    message: 'We use cookies and other tracking technologies as well as external media on our website. You may opt-out of non-essential cookies.'
+    dismissText: 'Agree'
+    linkText: 'Cookie Settings'
+    linkUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+  social:
+    twitterUrl: 'https://twitter.com/owasp_juiceshop'
+    facebookUrl: ~
+    slackUrl: ~
+    redditUrl: ~
+    pressKitUrl: 'https://www.spreadshirt.com/shop/owasp%20juice%20shop'
+  domain: juiceshop.myspreadsh.op
+  privacyContactEmail: donotreply@juiceshop.myspreadsh.op
+  favicon: https://juiceshop.myspreadshop.com/favicon-16x16.png
+challenges:
+  showSolvedNotifications: false
+  overwriteUrlForProductTamperingChallenge: 'https://craftychica.com/2015/06/drink-coasters-diy/'
+products:
+  -
+    name: 'OWASP Juice Shop Evil Wasp - Unisex Baseball T-Shirt'
+    price: 28.49
+    description: "Unisex Baseball T-Shirt is in stock. We will print it as soon as you order it. Unisex Baseball tee with ¾ raglan sleeves. 100% cotton. Brand: Tultex."
+    image: 'https://image.spreadshirtmedia.com/image-server/v1/products/T951A71PA4291PT17X20Y53D1029250117W20869H21000/views/1,width=650,height=650,appearanceId=71,backgroundColor=fff/evilwasp-of-the-owasp-juice-shop-the-intentionally-insecure-open-source-javascript-web-application-built-with-node-express-und-angular.jpg'
+  -
+    name: 'OWASP Juice Shop Coaster'
+    description: 'OWASP Juice Shop "King of the Hill" coaster.'
+    price: 23.99
+    image: 'https://image.spreadshirtmedia.net/image-server/v1/products/T996A1PA2179PT10X-16Y0D174943716W13686H10480/views/1,width=120,height=120,appearanceId=1,backgroundColor=F2F2F2,modelId=4370,crop=detail/owasp-juice-shop-king-of-the-hill-untersetzer.jpg'
+    urlForProductTamperingChallenge: 'https://www.spreadshirt.de/shop/design/owasp+juice+shop+king+of+the+hill+untersetzer-D5ebeb44fe4474211216d2c9a?sellable=92DBo7MR9At7200NQOGG-996-32'
+  -
+    name: 'Christmas Mys-Tee-ry Bag (2014 Edition)'
+    description: 'Contains a random selection of 3 T-Shirts for an unbeatable price!'
+    price: 49.99
+    image: 'https://m.media-amazon.com/images/I/41nXsrgf5-L._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg'
+    useForChristmasSpecialChallenge: true
+  -
+    name: 'Rippertuer Special Juice'
+    description: 'Contains a magical collection of the rarest fruits gathered from all around the world, like Cherymoya Annona cherimola, Jabuticaba Myrciaria cauliflora, Bael Aegle marmelos... and others, at an unbelievable price! <br/><span style="color:red;">This item has been made unavailable because of lack of safety standards.</span>'
+    price: 16.99
+    image: undefined.jpg
+    keywordsForPastebinDataLeakChallenge:
+      - hueteroneel
+      - eurogium edule
+  -
+    name: 'OWASP Juice Shop Logo (3D-printed)'
+    description: 'This rare item was designed and handcrafted in Sweden. This is why it is so incredibly expensive despite its complete lack of purpose.'
+    price: 99.99
+    image: 3d_keychain.jpg # Exif metadata contains "OpenSCAD" as subtle hint...
+    fileForRetrieveBlueprintChallenge: JuiceShop.stl # ...to blueprint file type
+    exifForBlueprintChallenge:
+      - OpenSCAD

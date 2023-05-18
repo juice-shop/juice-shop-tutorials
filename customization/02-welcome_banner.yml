@@ -1,0 +1,6 @@
+application:
+  name: 'OWASP Juice Shop Merchandise'
+  logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR75YUKMZ8DgKDVeLNB4V-eYTbYuE_n_L5Ka4j3aIbXSw&s'
+  welcomeBanner:
+    title: 'Open your own merch shop today. Always Free.'
+    message: "<p>This is an <strong>OWASP Juice Shop Merchandise</strong> custom theme from our official tutorial!</p><h4><a href='https://github.com/juice-shop/juice-shop-tutorials/customization' target='_blank'>https://github.com/juice-shop/juice-shop-tutorials/customization/</a></h4>"

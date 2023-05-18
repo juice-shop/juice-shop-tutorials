@@ -1,0 +1,5 @@
+application:
+  name: 'OWASP Juice Shop Merchandise'
+  logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR75YUKMZ8DgKDVeLNB4V-eYTbYuE_n_L5Ka4j3aIbXSw&s'
+  welcomeBanner:
+    showOnFirstStart: false
