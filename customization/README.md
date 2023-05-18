@@ -12,10 +12,26 @@
 ```
 NODE_ENV=01-name_and_logo npm start
 ```
+Custom name and logo appear at the top left of every screen in the application.
 
 ### 2. Welcome Banner 
+```
+NODE_ENV=02-welcome_banner npm start
+```
+Delete all cookies of the application, then refresh your browser to see the customized welcome banner. 
+
 ### 3. No Banner 
+```
+NODE_ENV=03-no_banner npm start
+```
+Delete all cookies of the application, then refresh your browser. The welcome banner no longer appears.
+
 ### 4. Theme and Cookies 
+```
+NODE_ENV=04-theme_and_cookies npm start
+```
+Delete all cookies of the application, then refresh your browser. You will notice the changed color palette and also the customized and themed cookie banner in the right lower corner.
+
 ### 5. Social Links
 ### 6. Emails
 ### 7. Favicon
