@@ -96,18 +96,25 @@ You will see a few more products on the main screen now, making the shop feel a 
 ```
 NODE_ENV=15-photo_wall npm start
 ```
+In this config you defined your first own photo wall entry (i.e. "memory"). When configuring own memories, they replace the original ones. This leaves some challenges impossible to solve, which is reported as validation errors in the config.
 
 ### 16. Default Challenge Memories
 ```
 NODE_ENV=16-default_challenge_memories npm start
 ```
+The quickest way to get back to a working configuration, is to add back all original memories from `default.yml` which were needed for hacking challenges. When starting the Juice Shop, you now see some of these plus your own original photo wall entry.
 
 ### 17. Avatars
 ```
 NODE_ENV=17-avatars npm start
 ```
+Launch any tutorial from the Score Board to see your overwritten Hacking Instructor avatar. Similarly, open the Support Chat Bot (when logged in) to enjoy its new avatar. 
 
 ### 18. Final Touch
 ```
 NODE_ENV=18-final_touch npm start
 ```
+This collection of smaller customizations are barely noticable. To check out all of their effect...
+* ...visit the Accounts > Orders & Payments > Recycle page
+* ...solve the _Blockchain Hype_ challenge
+* ...and the _Exposed Metrics_ challenge.
