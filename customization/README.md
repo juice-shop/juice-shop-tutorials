@@ -54,36 +54,43 @@ You should see your custom favicon in your browser tab.
 ```
 NODE_ENV=08-notifications_off npm start
 ```
+This config change is supposed to hide notifications and confetti from solved hacking challenges. But this config contains a small schema error you need to fix.
 
 ### 9. Schema validation
 ```
 NODE_ENV=09-schema_fixed npm start
 ```
+The schema is now valid again. When you solve a hacking challenge, you no longer see the notification banner. Also, the confetti cannon no longer fires.
 
 ### 10. First product
 ```
 NODE_ENV=10-single_product npm start
 ```
+In this config you defined your first own product. When configuring own products, they replace the original product inventory. This leaves some challenges impossible to solve, which is reported as validation errors in the config.
 
 ### 11. Default challenge products
 ```
 NODE_ENV=11-default_challenge_products npm start
 ```
+The quickest way to get back to a working configuration, is to add back all original products from `default.yml` which were needed for hacking challenges. When starting the Juice Shop, you now see some of these plus your own original product.
 
 ### 12. Product Tampering Challenge
 ```
 NODE_ENV=12-product_tampering_challenge npm start
 ```
+This increment replaces the default product for the _Product Tampering_ challenge with a custom one.
 
 ### 13. Christmas Special Challenge
 ```
 NODE_ENV=13-christmas_special_challenge npm start
 ```
+This increment replaces the default product for the _Christmas Special_ challenge with a custom one. Please note that this product is not visible because it is soft-deleted due to no longer being available. On the surface you see no difference between a Juice Shop started with this or the previous config. 
 
 ### 14. More Products w/ reviews
 ```
 NODE_ENV=14-more_products_with_reviews npm start
 ```
+You will see a few more products on the main screen now, making the shop feel a lot less empty. 
 
 ### 15. Photo Wall
 ```
