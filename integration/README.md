@@ -10,11 +10,28 @@
 ### 1. Challenges API
 n/a
 
+**Example Integrations**
+* <https://www.npmjs.com/package/juice-shop-ctf-cli>
+* <http://juice-shop.github.io/juice-shop/#/5> (challenge count in slide title)
+
 ### 2. Challenges Declaration File
 n/a
 
+**Example Integrations**
+* <https://owasp-juice.shop/> project website populates its [Challenge Categories](https://owasp.org/www-project-juice-shop/#div-challenges) and [Hacking Instructor Tutorials](https://owasp.org/www-project-juice-shop/#div-tutorials) tables from the `master` YAML file
+* [OpenCRE importer](https://github.com/OWASP/common-requirement-enumeration/blob/main/application/utils/external_project_parsers/juiceshop.py) maps challenges as training resources to then show on <https://opencre.org>
+* Challenge Solution Webhook (see 4.)
+
 ### 3. Direct Links
 n/a
+
+**Example Integrations**
+* Juice Shop challenges as training resource links on <https://opencre.org>, e.g.
+
+```
+Tool : OWASP Juice Shop : localXssChallenge : DOM XSS
+Reference: https://demo.owasp-juice.shop/#/score-board?challenge=DOM%20XSS
+```
 
 ### 4. Challenge Solution Webhook
 Set up a server that exposes a Webhook URL to listen for Juice Shop notifications.
@@ -29,5 +46,12 @@ SOLUTIONS_WEBHOOK=<your webhook URL> npm start
 
 Open your Juice Shop instance in another tab and start solving some challenges. You should get notifications for each solved hacking and coding challenge on the webhook.
 
+**Example Integrations**
+* <https://github.com/juice-shop/multi-juicer> team scoreboard
+
 ### 5. Prometheus Metrics
 n/a
+
+**Example Integrations**
+* <https://github.com/juice-shop/multi-juicer> provides a Grafana dashboard to the admin for team progress tracking and troubleshooting instances
+* A RaspberryPi under Björn‘s desk scrapes <http://demo.owasp-juice.shop/metrics> and hosts [a Grafana dashboard](https://github.com/juice-shop/juice-shop/blob/master/monitoring/grafana-dashboard.json)
