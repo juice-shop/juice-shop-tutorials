@@ -29,7 +29,12 @@ NODE_ENV=ctf npm start
 Solving any hacking challenge will now yield a flag code! Now we need a place to trade those flag codes for valuable CTF points!
 
 ### 2. Set up an empty CTF event in CTFd
-n/a
+
+Install CTFd locally on your machine according to <https://github.com/CTFd/CTFd#install>. The simplest possible installation is their singular Docker image that can be started with
+
+```
+docker run -p 8000:8000 -it ctfd/ctfd
+```
 
 ### 3. Run Juice Shop CTF CLI interactively
 ```
