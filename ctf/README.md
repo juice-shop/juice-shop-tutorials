@@ -9,8 +9,24 @@
 
 ## Tutorial Steps
 
-### 1. Launch OWASP Juice Shop
-n/a
+### 0. Launch OWASP Juice Shop
+```
+npm start
+```
+launches Juice Shop in standard configuration. When solving any hacking challenge, you do not get a flag code for the CTF.
+
+### 1. Launch OWASP Juice Shop in CTF mode
+```
+set NODE_ENV=ctf     # on Windows
+export NODE_ENV=ctf  # on Linux
+
+npm start
+```
+or shorthand (on Linux only)
+```
+NODE_ENV=ctf npm start
+```
+Solving any hacking challenge will now yield a flag code! Now we need a place to trade those flag codes for valuable CTF points!
 
 ### 2. Set up an empty CTF event in CTFd
 n/a
