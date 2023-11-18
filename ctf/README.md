@@ -49,14 +49,21 @@ juice-shop-ctf
 6. `Insert a code snippet as hint each challenge?`: Keep `No hint snippets` and just hit Enter 
 
 ### 4. Import generated CSV backup into CTFd
-n/a
+1. Go to the section _Admin Panel_ > _Config_ > _Backup_ and choose _Import CSV_
+2. Select _Challenges_ from the _CSV Type_ dropdown
+3. Select the generated `.csv` file as _CSV File_ and press _Import_.
 
 ### 5. Launch Juice Shop in CTF mode
 ```
 NODE_ENV=ctf npm start
 ```
 
+Solve a challenge in your Juice Shop (started with `NODE_ENV=ctf`) and paste the flag code into your CTFd instance. You will notice, that the flag is _not accepted_? Why is that? We did not tell Juice Shop the matching `ctf.key` during startup!
+
 ### 6. Launch Juice Shop in CTF mode with custom `ctf.key`
+Start Juice Shop again with an additional environment variable `CTF_KEY` set to `1234567890`, e.g. in Linux via this one-line command:
 ```
 NODE_ENV=ctf CTF_KEY=1234567890 npm start
 ```
+
+Replay the notification of the previously solved challenge. You will notice that the flag code changed. Pasting it into CTFd should solve the matching challenge there!
