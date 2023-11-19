@@ -2,6 +2,7 @@
 
 In this repository you find presentations and code snippets for various tutorials on advanced OWASP Juice Shop topics:
 
+* [Capture the Flag](/ctf) - Set up a CTF from scratch in no time 
 * [Customization](/customization) - Build a theme in 18 easy steps
 * [Integration](/integration) - Siphon juicy data in 5 different ways
 
