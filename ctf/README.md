@@ -26,7 +26,7 @@ or shorthand (on Linux only)
 ```
 NODE_ENV=ctf npm start
 ```
-Solving any hacking challenge will now yield a flag code! Now we need a place to trade those flag codes for valuable CTF points!
+Solving any hacking challenge will now yield a flag code! Now we need a place to trade those flag codes for valuable CTF points! In CTF mode you can also re-trigger the notifications by clicking the flag-button on the Score Board. This can be handy in case you missed a flag code.
 
 ### 2. Set up an empty CTF event in CTFd
 
