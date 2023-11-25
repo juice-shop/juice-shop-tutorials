@@ -42,7 +42,7 @@ juice-shop-ctf
 ```
 
 1. `CTF framework to generate data for?`: Select `CTFd` with the up/down arrow keys and hit Enter
-2. `Juice Shop URL to retrieve challenges?`: Type `localhost:3000` (or the URL where your Juice Shop server is available at) and hit Enter
+2. `Juice Shop URL to retrieve challenges?`: Type `http://localhost:3000` (or the URL where your Juice Shop server is available at) and hit Enter
 3. `Secret key <or> URL to ctf.key file?`: Type `1234567890` and hit Enter
 4. `Insert a text hint along with each challenge?`: Select `Free text hints` and hit Enter
 5. `Insert a hint URL along with each challenge?`: Keep `No hint URLs` and just hit Enter
